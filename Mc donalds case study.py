@@ -85,13 +85,8 @@ plt.title('Association between Segment Membership and McDonald\'s Preference')
 plt.show()
 
 # Step 8: Computing Mean Values of Descriptor Variables for Each Segment
-# Replace 'VisitFrequency' with the actual column name in your dataset
 visit_means = df.groupby(labels_kmeans)['VisitFrequency'].mean()
 
-# You can continue with further analysis or visualization as needed
-
-
-# In[ ]:
 
 
 
